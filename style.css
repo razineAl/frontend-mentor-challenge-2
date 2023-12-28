@@ -29,7 +29,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,0);
-    width: 500px;
+    width: 80%;
     background-color: #fff;
     padding: 15px;
     border-radius: 15px;
@@ -61,6 +61,7 @@ div.question{
 }
 div.question p:hover{
     cursor: pointer;
+    color: rgba(181, 14, 153, 0.895);
 }
 div.question > button:first-of-type{
     height: 25px;
@@ -91,5 +92,16 @@ button:hover{
     cursor: pointer;
 }
 @media screen and (min-width:375px) {
-    
+    .floating-section{
+        width: 60%;
+        
+    }
+    .first-section{
+        background:url('./assets/images/background-pattern-desktop.svg') no-repeat center center/cover ;
+    }
+}
+@media screen and (min-width:575px) {
+    .floating-section{
+        width: 500px;
+    }
 }
