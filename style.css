@@ -29,7 +29,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,0);
-    width: 80%;
+    width: 90%;
     background-color: #fff;
     padding: 15px;
     border-radius: 15px;
@@ -58,6 +58,10 @@ div.question{
     align-items: center;
     font-family: WorkSansSemiBold;
 
+}
+div.question p{
+    display: inline-block;
+    margin-right: 30px;
 }
 div.question p:hover{
     cursor: pointer;
@@ -93,7 +97,7 @@ button:hover{
 }
 @media screen and (min-width:375px) {
     .floating-section{
-        width: 70%;
+        width: 80%;
         
     }
     .first-section{
